@@ -83,8 +83,8 @@ func findMin<T:Comparable>(arr:Array<T>) -> T?{
 
 
 
-//  Evaluates the program that returns an integer. 
-//  It measures the running time of the given program.
+// Evaluates the program that returns an integer.
+// It measures the running time of the given program.
 func evaluateProblem(problemNumber: Int, problemBlock: () -> Int) {
     println("Evaluating problem \(problemNumber)...");
     
@@ -98,6 +98,11 @@ func evaluateProblem(problemNumber: Int, problemBlock: () -> Int) {
     println("Time to evaluate problem \(problemNumber): \(timeInterval) seconds");
 }
 
+// Reverse the given String
+func reverseString(givenString: String) -> String {
+    var reversed = reverse(givenString)
+    return String(reversed)
+}
 
 
 
