@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5910FD931B2D938A00DD77A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910FD921B2D938A00DD77A9 /* main.swift */; };
 		5910FD9A1B2D972800DD77A9 /* ProjectEulerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */; };
+		59E26E7B1B55901300FA2002 /* 1to10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E26E7A1B55901300FA2002 /* 1to10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		5910FD8F1B2D938A00DD77A9 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		5910FD921B2D938A00DD77A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEulerLibrary.swift; sourceTree = "<group>"; };
+		59E26E7A1B55901300FA2002 /* 1to10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1to10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,19 @@
 		5910FD911B2D938A00DD77A9 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
+				59E26E791B558FF800FA2002 /* Solutions */,
 				5910FD921B2D938A00DD77A9 /* main.swift */,
 				5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */,
 			);
 			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		59E26E791B558FF800FA2002 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				59E26E7A1B55901300FA2002 /* 1to10.swift */,
+			);
+			name = Solutions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			files = (
 				5910FD931B2D938A00DD77A9 /* main.swift in Sources */,
 				5910FD9A1B2D972800DD77A9 /* ProjectEulerLibrary.swift in Sources */,
+				59E26E7B1B55901300FA2002 /* 1to10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +252,7 @@
 				5910FD981B2D938A00DD77A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

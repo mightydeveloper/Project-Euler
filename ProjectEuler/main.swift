@@ -11,6 +11,5 @@ import Foundation
 /* -------------------------------------------------*/
 
 
-evaluateProblem(5) {
-    return LCM([Int](1...20))
-}
+
+problem4()
