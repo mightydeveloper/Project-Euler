@@ -8,5 +8,9 @@
 
 import Foundation
 
-println("Hello, World!")
+/* -------------------------------------------------*/
 
+
+evaluateProblem(5) {
+    return LCM([Int](1...20))
+}

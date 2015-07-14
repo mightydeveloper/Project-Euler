@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5910FD931B2D938A00DD77A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910FD921B2D938A00DD77A9 /* main.swift */; };
+		5910FD9A1B2D972800DD77A9 /* ProjectEulerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5910FD8F1B2D938A00DD77A9 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		5910FD921B2D938A00DD77A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEulerLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				5910FD921B2D938A00DD77A9 /* main.swift */,
+				5910FD991B2D972800DD77A9 /* ProjectEulerLibrary.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5910FD931B2D938A00DD77A9 /* main.swift in Sources */,
+				5910FD9A1B2D972800DD77A9 /* ProjectEulerLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
