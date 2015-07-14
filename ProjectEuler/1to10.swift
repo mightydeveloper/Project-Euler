@@ -39,7 +39,7 @@ func problem2() {
 
 func problem3() {
     evaluateProblem(3) {
-        return findMax(factorInteger(600851475143))
+        return findMax(factorInteger(600851475143))!
     }
 }
 
@@ -55,7 +55,7 @@ func problem4() {
                 }
             }
         }
-        return findMax(temp)
+        return findMax(temp)!
     }
 }
 

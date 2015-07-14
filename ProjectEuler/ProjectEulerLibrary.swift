@@ -51,6 +51,8 @@ func isPalindrome(num : Int) -> Bool {
 
 //  Find maximum element in the given Array.
 //  The array elements must be comparable
+// Old code
+/*
 func findMax<T:Comparable>(arr:Array<T>) -> T{
     var temp = arr[0]
     for element in arr {
@@ -59,6 +61,13 @@ func findMax<T:Comparable>(arr:Array<T>) -> T{
         }
     }
     return temp
+}
+*/
+
+// Using library function "reduce" in Array datastructure in Swift,
+func findMax<T:Comparable>(arr:Array<T>) -> T?{
+    if arr.isEmpty {return nil}
+    return arr.reduce(arr[0]) {if $0 < $1 {return $1} else {return $0}}
 }
 
 
