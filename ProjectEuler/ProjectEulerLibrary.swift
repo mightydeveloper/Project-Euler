@@ -71,6 +71,14 @@ func findMax<T:Comparable>(arr:Array<T>) -> T?{
 }
 
 
+// Find minimum element in the given Array
+func findMin<T:Comparable>(arr:Array<T>) -> T?{
+    if arr.isEmpty {return nil}
+    return arr.reduce(arr[0]) {if $0 < $1 {return $0} else {return $1}}
+}
+
+
+
 //  Evaluates the program that returns an integer. 
 //  It measures the running time of the given program.
 func evaluateProblem(problemNumber: Int, problemBlock: () -> Int) {
