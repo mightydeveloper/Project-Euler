@@ -68,6 +68,20 @@ func problem5() {
 
 
 func problem6() {
+    evaluateProblem(6) {
+        var SqOfSum = 0
+        var SumOfSq = 0
+        for i in 1...100 {
+            SqOfSum += i
+            SumOfSq += i*i
+        }
+        SqOfSum *= SqOfSum
+        return SqOfSum - SumOfSq
+    }
+}
+
+
+func problem7() {
     
 }
 
