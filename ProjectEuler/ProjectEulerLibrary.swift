@@ -8,7 +8,10 @@
 
 import Foundation
 
-// Type extensions -------------------------------------
+// --------------------------------------------------------------
+// MARK: - Type extensions
+// --------------------------------------------------------------
+
 
 //  String Type extension to support subscript operation
 //  Example Usage :
@@ -25,8 +28,9 @@ extension String {
     }
 }
 
-
-// Utility functions -----------------------------------
+// --------------------------------------------------------------
+// MARK: - Utility functions
+// --------------------------------------------------------------
 
 //  Checks if the given string is palindrome
 func isPalindrome(str : String) -> Bool {
@@ -96,7 +100,11 @@ func evaluateProblem(problemNumber: Int, problemBlock: () -> Int) {
 
 
 
-// Number theory functions ---------------------------
+
+// --------------------------------------------------------------
+// MARK: - Number theory functions
+// --------------------------------------------------------------
+
 
 // Factors the given integer and outputs its array of prime numbers
 func factorInteger(number:Int) -> [Int] {
