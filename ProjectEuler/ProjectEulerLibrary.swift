@@ -170,6 +170,61 @@ func LCM(intarr:[Int]) -> Int {
     return temp
 }
 
+// Sieve of Eratosthenes
+// results all prime number list under certain limit
+// ex) [2,3,5,7,11]
+func sieveOfEratosthenes(limit:Int = 1000000) -> [Int] {
+    if limit<2 {
+        return []
+    } else if limit == 2 {
+        return [2]
+    }
+    var primality = [Bool](count: limit, repeatedValue: true)
+    primality[0] = false
+    primality[1] = false
+    
+    for i in 2..<limit {
+        for var j = 2; i*j<limit; ++j {
+            if primality[i*j] {
+                primality[i*j] = false
+            }
+        }
+    }
+    
+    var resultArr:[Int] = []
+    for i in 2..<limit {
+        if primality[i] {
+            resultArr.append(i)
+        }
+    }
+    return resultArr
+}
+
+
+// Sieve of Eratosthenes
+// results primality boolean list under certain limit
+// ex) [false, false, true, true, false, true, false, true, false, false]
+func sieveOfEratosthenes2(limit:Int = 1000000) -> [Bool] {
+    if limit<3 {
+        return []
+    }
+    var primality = [Bool](count: limit, repeatedValue: true)
+    primality[0] = false
+    primality[1] = false
+    
+    for i in 2..<limit {
+        for var j = 2; i*j<limit; ++j {
+            if primality[i*j] {
+                primality[i*j] = false
+            }
+        }
+    }
+    return primality
+}
+
+
+
+
 
 
 

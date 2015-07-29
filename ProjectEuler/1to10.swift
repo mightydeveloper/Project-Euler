@@ -82,6 +82,9 @@ func problem6() {
 
 
 func problem7() {
-    
+    evaluateProblem(7) {
+        var primes = sieveOfEratosthenes(limit: 1000000)
+        return primes[10000] // 10001st prime.
+    }
 }
 
